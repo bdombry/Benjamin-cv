@@ -2,14 +2,12 @@
 
 header{
     color: white;
-    background-color: #a18a78;
-}
-h2{
-    color:white;
+    background-color: #6F8AB7;
 }
 
 h2{
-    background-color:#a18a78;
+    background-color:#6F8AB7;
+    color:white;
 }
 
 body a:link{
@@ -17,6 +15,18 @@ body a:link{
 }
 
 body{
-    background-color:  #ffedd8;
+    background-color:  #CAE5FF;
     font-family: 'Roboto Slab', serif;
 }
+
+li {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+li::before{
+    content: "-";
+}
+
+ 
