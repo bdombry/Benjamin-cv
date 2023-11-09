@@ -1,8 +1,22 @@
+
+
+header{
+    color: white;
+    background-color: #a18a78;
+}
+h2{
+    color:white;
+}
+
+h2{
+    background-color:#a18a78;
+}
+
+body a:link{
+    color:black
+}
+
 body{
-    background-color:  #FDF3D2;
+    background-color:  #ffedd8;
+    font-family: 'Roboto Slab', serif;
 }
-
-head{
-    background-color: black;
-}
-
