@@ -17,6 +17,7 @@ body a:link{
 body{
     background-color:  #CAE5FF;
     font-family: 'Roboto Slab', serif;
+    font-size: clamp(2rem, 10vw);
 }
 
 li {
@@ -29,4 +30,7 @@ li::before{
     content: "-";
 }
 
+li.contact{
+    content: "";
+}
  
