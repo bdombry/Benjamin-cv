@@ -1,0 +1,68 @@
+/**
+/* Bases */
+/* ---------------------------------------------------------- */
+body{
+    background-color:  #CAE5FF;
+    font-family: 'Roboto Slab', serif;
+    font-size: clamp(2rem, 10vw);
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    color: white;
+    background-color: #6F8AB7;
+    border: 4px solid white
+}
+
+/* Titres */
+h1{
+    color: #6F8AB7;
+    background-color: white;
+    border: 3px solid #6F8AB7;
+    
+}
+h2{
+    background-color:#6F8AB7;
+    color:white;
+    border: 3px solid white;
+    margin: 5px; 
+}
+/* Typo */
+ul.list-icon{
+    list-style: none;
+    padding-inline-start: 1rem;
+}
+li {
+    before{
+        content: "-";
+    }
+    display: flex;
+    flex-direction: row;
+    gap: 10px;   
+}
+/* Link */
+body a:link{
+    color:black
+}
+/* emoji */
+li.mail:before {
+    content: "📧";
+}
+li.tel:before {
+    content: "📱";
+}
+  /* layout */
+.col-1{
+    flex:50%
+}  
+.col-2{
+      flex: 100;
+}
+.content{
+    display: flex;
+    gap: 1rem;
+    max-width: 720px;
+    margin:auto;
+    border: 3px solid white
+}
